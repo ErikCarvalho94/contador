@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.container {
+    background-color: yellowgreen;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px; rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#valor {
+    font-size: 2em;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.botoes{
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(7, 7, 7, 0.185);
+    ;
+    
+}
+
+.botoes button:hover {
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}

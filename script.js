@@ -8,3 +8,20 @@ let contador = 0;
 function atualizarValor() {
   valorElemento.textContent = contador;
 }
+
+incrementarBotao.addEventListener('click', function(){
+  contador++;
+  atualizarValor();
+})
+
+decrementarBotao.addEventListener('click', function(){
+  contador--;
+  atualizarValor();
+})
+
+zerarBotao.addEventListener('click', function(){
+  contador = 0;
+  atualizarValor();
+})
+
+atualizarValor();

@@ -1,0 +1,23 @@
+{
+  "name": "contador",
+  "version": "1.0.0",
+  "description": "Este projeto consiste em um contador web interativo, desenvolvido utilizando HTML, CSS e JavaScript, com foco em fornecer uma experiência de usuário acessível e agradável.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikCarvalho94/contador.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErikCarvalho94/contador/issues"
+  },
+  "homepage": "https://github.com/ErikCarvalho94/contador#readme",
+  "devDependencies": {
+    "sass": "^1.87.0"
+  }
+}

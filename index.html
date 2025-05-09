@@ -6,11 +6,19 @@
     <link rel="shortcut icon" href="./images/number.png" type="image/x-icon">
     <title>Contador</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="toggle-estilo.css"> </head>
 </head>
 <body>
-    <button id="alterarCores">
-        <img id="iconeAlterarCores" src="./images/Moon.png" alt="Alternar para modo claro/escuro">
-    </button>
+    <div class="wrapper">
+        <div class="alternancia">
+            <input class="alternancia-input" type="checkbox" id="alternarCores">
+            <div class="alternancia-bg"></div>
+            <div class="alternancia-switch">
+                <div class="alternancia-switch-figura"></div>
+                <div class="alternancia-switch-figuraAlt"></div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <span id="valor">0</span>
         <div class="botoes">

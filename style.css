@@ -19,7 +19,7 @@ body.modo-escuro {
     width: 300px;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px; rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: background-color 0.5s ease;
 }
@@ -80,4 +80,38 @@ body.modo-escuro .botoes button:hover {
     transition: background-color 0.3s ease;
     cursor: pointer;
     color: white;
+}
+
+.animacao-container {
+    position: fixed;
+    top: 50%;
+    left: calc(50% + 220px);
+    transform: translateY(-50%);
+    width: 180px;
+    height: 180px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    z-index: 1000;
+}
+
+.animacao-container.visivel {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (max-width: 768px) {
+    .animacao-container {
+        width: 120px;
+        height: 120px;
+        left: calc(50% + 200px);
+    }
+}
+
+@media (max-width: 600px) {
+    .animacao-container {
+        width: 100px;
+        height: 100px;
+        left: calc(50% + 180px);
+    }
 }
